@@ -1,0 +1,203 @@
+@font-face {
+    font-family: robinf;
+    src: url('../Fonts/robingraffitifilledin-webfont.woff2') format('woff2'),
+         url('../Fonts/robingraffitifilledin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: robin;
+    src: url('../Fonts/robingraffiti-webfont.woff2') format('woff2'),
+         url('../Fonts/robingraffiti-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body { 
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 0;
+  
+  }
+
+
+#pageHeader ul{
+ opacity: 0.9;
+  list-style-type: none;
+  text-align: center;
+    
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: robinf;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px black;
+   
+}
+
+#pageHeader li:hover{
+    font-family: robin;
+}
+
+#pageHeader li {
+  float:none;
+    display: inline-block;
+    
+ 
+}
+
+#pageHeader li a {
+    
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+
+#pageHeader {
+    height: 111vh;
+    background-color: white;
+    background-image: url(Images/mainbg.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+.Backdrop{
+    
+    width: 70%;
+    background-color: whitesmoke;
+    margin: auto;
+    height: 900px;
+    box-shadow: 5px 5px 5px grey;
+    position:relative; 
+    top:-450px;  
+    z-index:1;">
+
+}
+.Backstory{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    
+}
+
+
+.BackdropDes{
+
+    color: black;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+h2{
+    color: black;
+    font-family: robinf;
+    padding-top: 40px; 
+    font-size: 50px;
+}
+
+p{
+    padding: 50px;
+    font-size: 25px;
+    font-family: 'Syne Mono', monospace;
+    text-align: left;
+}
+
+#Cases img{
+    display: inline-flex;
+   
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  
+  text-align: center;
+}
+
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}

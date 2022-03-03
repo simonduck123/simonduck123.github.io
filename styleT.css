@@ -1,0 +1,191 @@
+@font-face {
+    font-family: robinf;
+    src: url('../Fonts/robingraffitifilledin-webfont.woff2') format('woff2'),
+         url('../Fonts/robingraffitifilledin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: robin;
+    src: url('../Fonts/robingraffiti-webfont.woff2') format('woff2'),
+         url('../Fonts/robingraffiti-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+    
+}
+
+
+#pageHeader ul{
+ opacity: 0.9;
+  list-style-type: none;
+  text-align: center;
+    
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: robinf;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#pageHeader li:hover{
+    font-family: robin;
+}
+
+#pageHeader li {
+  float:none;
+    display: inline-block;
+    
+ 
+}
+
+
+#pageHeader li a {
+    
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+.header{
+    text-align: center;
+    padding: 30px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+body {
+ 
+  font-family: "Poppins", sans-serif;
+    
+    background-image: url(Images/background2.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 161vh;
+}
+
+.container {
+  margin: 20px 40px;
+  color: black;
+}
+
+.heading {
+  font-size: 60px;
+  color: white;
+    
+}
+
+
+.profiles {
+  float:left;
+  justify-content: space-around;
+  margin: 20px 80px;
+  padding: 20px;
+  background-color: white;
+  opacity: 90%;
+    
+}
+
+.profile {
+    float: left;
+    width: 33%;
+    text-align: center;
+ 
+}
+
+
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 400ms;
+    
+}
+
+
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.profile h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #838383;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  padding-left: 80px;
+  padding-bottom: 30px;
+    width: 70%;
+    
+}
+
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .heading span {
+    font-size: 15px;
+  }
+
+  .profiles {
+    margin: 20px 0;
+  }
+
+  .profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
+

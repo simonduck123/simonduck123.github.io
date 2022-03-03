@@ -1,0 +1,165 @@
+@font-face {
+    font-family: robinf;
+    src: url('../Fonts/robingraffitifilledin-webfont.woff2') format('woff2'),
+         url('../Fonts/robingraffitifilledin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: robin;
+    src: url('../Fonts/robingraffiti-webfont.woff2') format('woff2'),
+         url('../Fonts/robingraffiti-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+    
+}
+
+body { 
+  display: flex;
+  flex-direction: column;
+ color: white;
+  text-align: center;
+
+
+  }
+
+
+#pageHeader ul{
+ opacity: 0.9;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: robinf;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#pageHeader li:hover{
+    font-family: robin;
+}
+
+#pageHeader li {
+  float:none;
+    display: inline-block;
+    
+}
+
+#pageHeader li a {
+    
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.header{
+    text-align: center;
+    padding: 30px;
+}
+
+div.Pics {
+
+ margin: auto;
+ width:100%;      
+}
+
+
+div.Pics img{
+    width: 100%;
+    height: auto;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+#minigame1{
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    height: 1050px;
+    
+}
+#minigame2{
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    height: 1050px;
+    
+}
+#minigame3{
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    height: 1050px;
+    
+}
+
+.Backdrop{
+    
+    width: 70%;
+    background-color: whitesmoke;
+    margin: auto;
+    height: 550px;
+    box-shadow: 5px 5px 5px grey;
+    position:relative; 
+    top:-350px;  
+    z-index:1;">
+
+}
+
+.BackdropDes{
+    display: flex;
+    text-align:center;
+    color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 25px;
+    
+    font-family: 'Syne Mono', monospace;
+
+}
+
+
+h2{
+    color: black;
+    padding: 20px;
+    font-family: robinf;
+    font-size: 40px;
+}
+
+.Backdrop img{
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    padding-top: 20px;
+}
+
+.Backdrop img:first-child{
+        position:relative; 
+    top: -600px;  
+    z-index:2;">
+}
